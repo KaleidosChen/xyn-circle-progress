@@ -1,12 +1,16 @@
 {
   "name": "xyn-circle-progress",
-  "version": "1.0.1",
+  "version": "1.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["vue3","uniapp" ,"miniprogram","微信小程序","h5","环形进度条","圆形进度条","circle progress"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KaleidosChen/xyn-circle-progress.git"
+  }
 }

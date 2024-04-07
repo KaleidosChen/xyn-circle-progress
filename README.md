@@ -16,13 +16,14 @@
 
 2.1 引入 xyn-circle-progress 组件
 
-` import xynCircleProgress from "xyn-circle-progress";
+`import xynCircleProgress from "xyn-circle-progress";`
 
 2.2 页面中写入组件
 
- <xyn-circle-progress :rate="80" boxWidth="160rpx"  width="15rpx" activeColor="#99C39C" inactiveColor="#F2F2F2" :fillet="true" >
-   <view>{{80}}%</view>
- </xyn-circle-progress>
+`<xyn-circle-progress :rate="80" boxWidth="160rpx"  width="15rpx" activeColor="#99C39C" inactiveColor="#F2F2F2" :fillet="true" >  
+ <view>{{80}}%</view>  
+ </xyn-circle-progress>  
+ `
 
 # 3.API
 
