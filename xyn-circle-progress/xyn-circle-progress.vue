@@ -159,70 +159,70 @@ function getNumberAndUnit(str) {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .circle-container {
   position: relative;
   width: 100%;
   height: 100%;
-  .circle {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    .ab {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      box-sizing: border-box;
-    }
-    .circle-left {
-      border-radius: 50%;
-      clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
-    }
+}
+.circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.ab {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.circle-left {
+  border-radius: 50%;
+  clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
+}
 
-    .circle-right {
-      border-radius: 50%;
-      clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
-    }
-    .border-start {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 1;
-      border-radius: 50%;
-    }
-    .border-left-end {
-      position: absolute;
-      bottom: 0px;
-      left: 50%;
-      transform: translate(-50%, 100%);
-      z-index: 1;
-      border-radius: 50%;
-    }
-    .border-right-end {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translate(-50%, -100%);
-      z-index: 1;
-      border-radius: 50%;
-    }
-  }
-  .text-area {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.circle-right {
+  border-radius: 50%;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+}
+.border-start {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 50%;
+}
+.border-left-end {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  z-index: 1;
+  border-radius: 50%;
+}
+.border-right-end {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: 1;
+  border-radius: 50%;
+}
+.text-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 </style>
