@@ -1,4 +1,4 @@
-# kc-wx-table
+# xyn-circle-progress
 
 介绍：方便在 uniapp 中使用环形进度条，且在 h5 和微信小程序中使用正常，使用 css 完成进度条样式，防止 canvas 在微信小程序中层级问题。
 关键词：uniapp circle-progress vue3 环形进度条 圆形进度条 css
